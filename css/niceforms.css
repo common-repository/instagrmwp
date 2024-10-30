@@ -1,0 +1,240 @@
+fieldset.inswpset {background:#333; padding:10px; border:1px solid #fff; border-color:#fff #666661 #666661 #fff; margin-bottom:36px; width:720px;}
+fieldset.inswpset .action {background:#9da2a6; border-color:#e5e5e5 #797c80 #797c80 #e5e5e5; margin-top:-20px;}
+legend#btlogin { -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #22C3FF;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    font: bold 17px/21px Calibri,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0 10px;}
+legend#btper { -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #CA4E7C;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    font: bold 17px/21px Calibri,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0 10px;}
+legend#btprof { -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #808000;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    font: bold 17px/21px Calibri,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0 10px;}
+legend#btimg { -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #DD006F;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    font: bold 17px/21px Calibri,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0 10px;}
+legend#btpost { -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #800040;
+    border-style: solid;
+    border-width: 1px;
+    color: #FFFFFF;
+    font: bold 17px/21px Calibri,Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 0 10px;}
+label#inswplback {font-size:11px; font-weight:bold; color:#999;}
+label.opt {font-weight:normal;}
+dl#inswpdlback {clear:both;}
+dt#inswptitleconf {float:left; width:120px; line-height:25px; margin:3px;}
+dd#inswpddback {float:left; width:550px; line-height:25px; margin:0 0 10px 0;}
+#footer {font-size:11px;}
+
+#container {width:700px; margin:0 auto;}
+
+/*##########################################
+Script: Niceforms 2.0
+Theme: StandardBlue
+Author: Lucian Slatineanu
+URL: http://www.emblematiq.com/
+##########################################*/
+
+/*Focused*/
+.NFfocused {border:1px dotted #666;}
+/*Hovered*/
+.NFh {background-position:0 100%;}
+.NFhr {background-position:100% 100%;}
+/*Hidden*/
+.NFhidden {opacity:0; z-index:-1; position:relative;}
+/*Safari*/
+.inswpset select, .inswpset input, .inswpset textarea, .inswpset button {outline:none; resize:none;}
+#addivimg {
+  float:left;
+  width:95%;
+  height:150px;
+  overflow:hidden;
+}
+#tconfcat {
+  width:550px;
+  color:#969696;
+  float:left;
+  text-align:center;
+}
+#tdel {
+  width:30px;
+  color:#969696;
+  margin: 10px;
+}
+#getcatt {
+  width:550px;
+  color:#969696;
+  float:left;
+  padding-top: 3px;
+}
+#imgrm {
+	width:30px;
+	margin: 10px;
+}
+#iconvideo {
+	margin:5px 0 0 5px;
+	position:absolute;
+}
+.btonpost {
+	color: #fff;
+	padding: 5px 20px;
+	background-color:#1F4581;
+	border: medium none;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.btonpost:hover{
+	color: #1F4581;
+	padding: 5px 20px;
+	background-color:#fff;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.selbtfs {
+	color: #fff;
+	padding: 3px 3px;
+	background-color:#804040;
+	border:none;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.selbtfs:hover{
+	color: #804040;
+	padding: 3px 3px;
+	background-color:#fff;
+	border:none;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.feedbtfs {
+	color: #fff;
+	padding: 3px 3px;
+	background-color:#004000;
+	border:none;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.feedbtfs:hover{
+	color: #004000;
+	padding: 3px 3px;
+	background-color:#fff;
+	border:none;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.btconf {
+	color: #fff;
+	padding: 3px 3px;
+	background-color:#008000;
+	border:none;
+    -webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.btconf:hover {
+	color: #008000;
+	padding: 3px 3px;
+	background-color:#fff;
+	border:none;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.btlca {
+	color: #fff;
+	padding: 3px 3px;
+	background-color:#400080;
+	border:none;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+.btlca:hover {
+	color: #400080;
+	padding: 3px 3px;
+	background-color:#fff;
+	border:none;
+	-webkit-border-radius: 2px 2px;
+    -moz-border-radius: 2px 2px;
+    border-radius: 2px 2px;
+}
+select.inswpprosel {
+    padding:3px;
+    margin: 0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    background: #f8f8f8;
+    color:#333;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+#subscribeinswppro {
+	font-family:'Kaushan Script', cursive;
+	font-size:24px;
+	font-weight:bold;
+	margin:20px 0;
+	color:#4B4B4B;
+}  
+#exinswppro {
+	font-family:'Kaushan Script', cursive;
+	font-size:20px;
+	font-weight:bold;
+	margin:10px 0;
+	color:#4B4B4B;
+}
+#inswpsay {
+	font-family:'Kaushan Script', cursive;
+	font-size:20px;
+	font-weight:bold;
+	margin:0;
+	color:#4B4B4B;
+}

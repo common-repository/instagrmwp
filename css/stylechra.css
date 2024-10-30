@@ -1,0 +1,42 @@
+/* 
+    Document   : style
+    Created on : Aug 29, 2012, 3:59:32 PM
+    Author     : Nick
+    Description:
+        Purpose of the stylesheet follows.
+*/
+fieldset.inswpset input[type="checkbox"] {
+    display:none;
+}
+
+fieldset.inswpset input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(/wp-content/plugins/instagrmwp/images/check_radio_sheet.png) left top no-repeat;
+    cursor:pointer;
+}
+
+fieldset.inswpset input[type="checkbox"]:checked + label span {
+    background:url(/wp-content/plugins/instagrmwp/images/check_radio_sheet.png) -19px top no-repeat;
+}
+
+fieldset.inswpset input[type="radio"] {
+    display:none;
+}
+
+fieldset.inswpset input[type="radio"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(/wp-content/plugins/instagrmwp/images/check_radio_sheet.png) -38px top no-repeat;
+    cursor:pointer;
+}
+
+fieldset.inswpset input[type="radio"]:checked + label span {
+    background:url(/wp-content/plugins/instagrmwp/images/check_radio_sheet.png) -57px top no-repeat;
+}
